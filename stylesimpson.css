@@ -1,0 +1,112 @@
+body    {
+    background-color:#FF921B;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    width: 80%;
+    margin: 0 auto;
+}
+header  {
+    background-color:#0083B3;
+    
+}
+    .canape{
+    width: 100%;
+    overflow: hidden;
+}
+    .bannière p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.4em;
+    margin: 0;
+    
+}
+main{
+   background-color: #ffffff;
+   
+}
+    .contenu{
+        display: flex;
+    }
+    nav{
+        background-color: #0083B3;
+        text-align: center;
+        margin: 1em 1em;
+        padding: 0;
+        height:100%;
+        width: 100%;
+        
+        
+    }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        a{
+            display: block;
+            color: #ffffff;
+            padding: 0.4em;
+            text-align: center;
+            
+            
+        }
+    article{
+        background-color: #ffffff;
+    }
+        h1{
+            color: #FF921B;font-weight: bold;font-size: 1.5em;
+        }
+        article p{
+            text-align: justify;
+        }
+    aside{
+        background-color:#0083B3;
+        text-align: justify;
+        margin: 2em;
+        padding: 2.5%;
+    }
+        aside figure img{
+            display: block;
+            padding:0;
+            width: 100%
+
+        }
+
+        figcaption{
+            color: #ffffff;font-weight: bold;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .biographie{
+            color: #ffffff;
+        }
+footer{
+    background-color:#0083B3;
+    color: #ffffff;
+    text-align: center;
+ 
+    font-size: 1em;
+}
+    footer p{
+        margin: 0;
+        padding: 0.4em;
+    }
+@media screen and (max-width: 790px){
+    .contenu{
+        
+        flex-direction: column;
+    }
+    nav{
+        margin: 0 auto;
+    }
+    
+    }
+    article p{
+        padding: 3%;
+    }
+    aside{
+        margin:0;
+}
